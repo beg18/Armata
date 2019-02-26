@@ -1,0 +1,198 @@
+.section_1 {
+
+}
+
+.section__wrap {
+  .row-flex();
+  .valign-wrapper(sm-col-center);
+}
+
+.s_1-content {
+    .min-height(550);
+  background-image: url(../i/bg-i/s1-bg.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  .padding-Y(bottom, 90);
+}
+
+
+.section__item {
+  .col();
+  .beam(4);
+  .margin-Y(60);
+  padding-left: 30px;
+  .beam-sm(8);
+
+  .sm-block({
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+  });
+
+}
+
+.mt0 {
+  margin-top: 0;
+}
+.section-item__left {
+  .col();
+  .beam(8);
+   padding-left: 30px;
+
+  .beam-sm(8);
+  .sm-block({
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+  });
+}
+
+.section-item__right {
+  .col();
+  .beam(4);
+
+  .beam-sm(8);
+
+  .sm-block({
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
+  });
+}
+
+.rating {
+  .max-width(260);
+
+  .sm-block({
+    max-width: none;
+  });
+}
+
+.rating__heading {
+  margin-bottom: 10px;
+}
+
+.rating__contents {
+  .padding-Y(20);
+}
+
+.rating-bot {
+  .max-width(280);
+
+  .sm-block({
+    max-width: none;
+  });
+}
+.rating-bot__heading {
+  &:extend(.rating__heading);
+}
+
+.rating-bot__contents {
+  &:extend(.rating__contents);
+}
+
+.s1-bot {
+  background-color: #394b5f;
+  .display-container();
+
+  .sm-block({
+    padding-top: 30px;
+  });
+
+  .s1-bot__inner--mt {
+    margin-top: 120px;
+    margin-bottom: 25px;
+
+    .sm-block({
+      margin-top: 0;
+    });
+  }
+}
+.s1-bot__wrap {
+  .row-flex();
+  .valign-wrapper(sm-col-center);
+}
+
+
+
+.s1-bot__inner {
+  .col();
+  .beam(4);
+  padding-left: 30px;
+  margin-top: 60px;
+
+  .beam-sm(8);
+
+  .sm-block({
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+  });
+
+
+
+  .rating {
+    .max-width(260);
+    .sm-block({
+      max-width: none;
+    });
+  }
+
+
+  .rating__heading {
+    &:extend(.rating__heading);
+  }
+
+  .rating__contents {
+    &:extend(.rating__contents);
+
+    p {
+      color: #ffffff;
+    }
+  }
+}
+
+.s1-bottom {
+    background-image: url(../i/bg-i/exp-triangle.png);
+    background-size: 100% 100%;
+    background-position: top;
+    width: 100%;
+    .height(90);
+   .center-align();
+   .display-topmiddle();
+    top:-88px;
+    z-index: 20;
+
+  .sm-block({
+    top:-77px;
+  });
+
+  .sm-block({
+    top:-69px;
+  });
+
+  .xs-block({
+    top:-64px;
+  });
+
+  .xxs-block({
+    top:-61px;
+  });
+}
+
+.s1-bottom__img {
+  .width(159);
+  .height(174);
+  .display-topmiddle();
+  top: -126px;
+  z-index: -1;
+  .hide-small-down(none);
+}
+
+.s1-bottom__logo {
+  .width(118);
+  .height(55);
+  margin-top: 30px;
+}
